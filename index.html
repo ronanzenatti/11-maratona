@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11ª Maratona</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Estilos para os botões modernos */
+        .modern-button {
+            display: inline-flex;
+            /* Permite ícone e texto na mesma linha e alinhados */
+            align-items: center;
+            /* Alinha verticalmente o ícone e o texto */
+            justify-content: center;
+            /* Centraliza o conteúdo horizontalmente */
+            padding: 14px 20px;
+            margin: 10px;
+            border-radius: 8px;
+            /* Cantos levemente arredondados */
+            text-decoration: none;
+            font-size: 14px;
+            /* Um pouco maior para destaque */
+            font-weight: bold;
+            color: #fff;
+            /* Texto branco para contraste */
+            transition: all 0.3s ease;
+            /* Animação suave para hover */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            /* Sombra suave */
+            border: none;
+            /* Remove a borda padrão */
+            cursor: pointer;
+        }
+
+        .modern-button i {
+            margin-right: 10px;
+            /* Espaço entre o ícone e o texto */
+            font-size: 20px;
+            /* Tamanho do ícone */
+        }
+
+        /* Cores dos botões inspiradas no layout existente */
+        .modern-button.blue {
+            background: linear-gradient(135deg, #024da1, #007bff);
+            /* Gradiente azul */
+        }
+
+        .modern-button.blue:hover {
+            background: linear-gradient(135deg, #007bff, #024da1);
+            /* Inverte o gradiente no hover */
+            transform: translateY(-2px);
+            /* Efeito de "levantar" no hover */
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+            /* Sombra mais pronunciada */
+        }
+
+        .modern-button.orange {
+            background: linear-gradient(135deg, #faae35, #ff8c00);
+            /* Gradiente laranja */
+        }
+
+        .modern-button.orange:hover {
+            background: linear-gradient(135deg, #ff8c00, #faae35);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        .modern-button.green {
+            background: linear-gradient(135deg, #11b600, #28a745);
+            /* Gradiente verde */
+        }
+
+        .modern-button.green:hover {
+            background: linear-gradient(135deg, #28a745, #11b600);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Responsividade básica para telas menores */
+        @media (max-width: 768px) {
+            .modern-button {
+                display: flex;
+                /* Empilha os botões em telas menores */
+                margin: 10px auto;
+                /* Centraliza os botões empilhados */
+                max-width: 300px;
+                /* Limita a largura em telas pequenas */
+            }
+        }
+    </style>
+
+</head>
+
+<body style="margin:0; padding:0; background:#f2f7fc; font-family: Arial, Helvetica, sans-serif; color:#222;">
+    <table cellpadding="0" cellspacing="0"
+        style="width: 90%; background: #fff; border-radius:18px; overflow:hidden; box-shadow:0 6px 22px rgba(0,56,143,0.10); margin:40px auto;">
+        <tbody>
+            <tr>
+                <td style="padding: 0; background: #024da1; text-align:center;">
+                    <h1 style="margin:0; padding:28px 10px 10px 10px;font-size:2.2em;color:#fff;letter-spacing:1px;">
+                        🚀 11ª Maratona CiberEducação Cisco Brasil</h1>
+                    <p style="margin:0; padding:0 20px 0px 20px; color:#fff;font-size:20px;">Transforme seus alunos
+                        em campeões da segurança digital! 🔒🏅</p>
+                    <h1 style="color:red"></h1>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 10px 36px;">
+
+                    <p style="font-size:16px;">O <strong>Programa CiberEducação Cisco</strong> está de volta em sua
+                        <span style="color:#009FE3;font-weight:bold;">11ª edição</span>, renovando a maior
+                        iniciativa de capacitação em <span style="color:#024da1;">segurança cibernética</span> do
+                        Brasil! Esta é a chance perfeita para engajar e transformar a trajetória profissional dos
+                        seus alunos.
+                    </p>
+                    <div style="margin:32px 0;">
+                        <table cellpadding="0" cellspacing="0" style="background:#eaf6ff;border-radius:10px;">
+                            <tbody>
+                                <tr>
+                                    <td style="padding:20px;">
+                                        <h2 style="color:#024da1; font-size:20px; margin-top:0;margin-bottom:10px;">
+                                            📢 Como participar?</h2>
+                                        <ul style="padding-left: 20px; font-size:16px; margin:0;">
+                                            <li style="margin-bottom:10px;">Sua Unidade Escolar precisa ter um
+                                                professor cadastrado na <a href="https://www.netacad.com/pt/"
+                                                    target="_blank"> plataforma Cisco NetAcad </a> como Instrutor.
+                                            </li>
+                                            <li style="margin-bottom:10px;"><b>Caso não tenha</b>, deve procurar o
+                                                Prof. Ronan (<a href="mailto:ronan.zenatti@cps.sp.gov.br"
+                                                    style="color:#024da1; text-decoration:underline;">E-mail</a> ou
+                                                <a href="https://api.whatsapp.com/send?phone=5514981575657&amp;text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20minha%20inclus%C3%A3o%20como%20instrutor%20na%20plataforma%20Cisco%20NetAcad."
+                                                    style="color:#11b600; text-decoration:underline;">WhatsApp</a>)
+                                                para inclusão.
+                                            </li>
+                                            <li style="margin-bottom:10px;"><b style="color:#11b600;">O Instrutor
+                                                    deve criar uma turma</b> do curso <b>“Gerenciamento de Ameaças
+                                                    Cibernéticas”</b> no NetAcad (modo autodidata e autoinscrição)
+                                                <u>conforme o tutorial abaixo.</u>
+                                            </li>
+                                            <li style="margin-bottom:6px;">📆 <strong style="color:red">ATÉ
+                                                    31/08/2025</strong>:
+                                                Registre sua academia na Maratona:<a
+                                                    href="https://www.cisco.com/c/m/pt_br/brasil-digital-e-inclusivo/maratonacibereducacao.html"
+                                                    style="color:#024da1; text-decoration:underline;">Acesse o link
+                                                    oficial</a></li>
+                                            <li style="margin-bottom:6px;">📆 <strong style="color:#009FE3">01/09/2025 a
+                                                    21/09/2025</strong>: Período para os alunos realizarem o curso e
+                                                concluírem a Maratona.</li>
+                                        </ul>
+                                        <div style="text-align: center;">
+                                            <a href="Tutorial_AberturaTurmas_2025.pdf" class="modern-button blue">
+                                                <i class="fas fa-book-open"></i> Tutorial de Abertura de Turma
+                                            </a>
+                                            <a href="ArtesDivulgacao.zip" class="modern-button orange">
+                                                <i class="fas fa-bullhorn"></i> Artes para Divulgação
+                                            </a>
+                                            <a href="Dados_Cisco.pdf" class="modern-button green">
+                                                <i class="fas fa-graduation-cap"></i> Dados de Educação da Cisco
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div style="margin:32px 0;">
+                        <table cellpadding="0" cellspacing="0"
+                            style="background:#f2f7fc; border-left: 4px solid #01add8; border-radius:8px;">
+                            <tbody>
+                                <tr>
+                                    <td style="padding:18px;">
+                                        <h3 style="color:#13bae8; margin:0;margin-bottom:8px;font-size:18px;">👨‍🏫
+                                            O Papel do Instrutor é simples:</h3>
+                                        <ul style="padding-left:20px;margin:0;font-size:16px;">
+                                            <li>✅ <b>Motive</b>, lembre e acompanhe seus alunos para concluírem o
+                                                curso dentro do prazo;</li>
+                                            <li>✅ Até 23/09/2025, envie o relatório dos alunos aprovados para
+                                                garantir a participação deles nas próximas etapas do Programa
+                                                CiberEducação Cisco.</li>
+                                        </ul>
+                                        <p style="font-size:14px; margin-top:12px; padding-left:5px; color:#555;">
+                                            <i><b>Dica:</b> A maratona pode ser utilizada como um instrumento de
+                                                avaliação em suas disciplinas ou para atribuição de pontos
+                                                adicionais.</i>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div style="margin:32px 0;">
+                        <table cellpadding="0" cellspacing="0"
+                            style="background:#fff2df;border-left: 4px solid #faae35;border-radius:8px;">
+                            <tbody>
+                                <tr>
+                                    <td style="padding:20px;">
+                                        <h3 style="color:#f69c00; margin:0;margin-bottom:8px;font-size:18px;">💎 Por
+                                            que engajar seus alunos?</h3>
+                                        <ul style="padding-left:20px;margin:0;font-size:16px;">
+                                            <li>🏅 <b>Certificação internacional</b> Cisco para todos concluintes;
+                                            </li>
+                                            <li>📝 Utilize como trabalho, nota extra, pontos ou destaque em projetos
+                                                – com seus alunos;</li>
+                                            <li>🌟 Reconhecimento especial aos melhores instrutores, academias e
+                                                estudantes nas divulgações do CPS e Cisco;</li>
+                                            <li>🚀 Protagonismo para seus alunos prontos para desafios do mercado e
+                                                tecnologia!</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div style="margin-bottom:25px;">
+                        <table cellpadding="0" cellspacing="0"
+                            style="background:#fff3ec; border-left:6px solid #ff4040; border-radius:8px;">
+                            <tbody>
+                                <tr>
+                                    <td style="padding: 18px 20px;">
+                                        <span style="font-size:19px; color:#c00000; font-weight:bold;">⚠️ Atenção
+                                            importante!</span>
+                                        <p style="margin:10px 0 0 0; font-size:16px; color:#c00000;">
+                                            Instrua seus alunos a <b>sempre iniciarem e concluírem o curso da
+                                                Maratona em que estão matriculados</b>, localizado na aba <b>“Meu
+                                                Aprendizado”</b> da plataforma NetAcad.
+                                        </p>
+                                        <p style="margin:10px 0 0 0; font-size:16px; color:#c00000;">
+                                            Eles devem procurar pelo curso <b>“Gerenciamento de Ameaças Cibernéticas
+                                                + Nome da Unidade”</b>. <br>
+                                            <b
+                                                style="background:#ffe5e5; color:#b30000; padding:1px 5px; border-radius:4px;">Atenção:
+                                                não confundir com o curso de auto instrução padrão!</b><br>
+                                            <span style="color:#b30000;">Apenas o curso com o nome da unidade valerá
+                                                pontos e participação para a competição da Maratona.</span>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div style="margin:32px 0 0 0;">
+                        <table cellpadding="0" cellspacing="0" style="background:#e8ffe8;border-radius:8px;">
+                            <tbody>
+                                <tr>
+                                    <td style="padding:20px 18px;">
+                                        <span style="font-size:17px;color:#11b600;font-weight:bold;">🚀 Inspire seus
+                                            alunos a conquistar a certificação Cisco e ser destaque na maior
+                                            maratona de segurança cibernética do Brasil!</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div style="margin: 34px 0 0 0;">
+                        <p style="font-size:16px;margin-bottom:5px; font-weight: bold; color: red;">
+                            👨‍💻 Precisa de ajuda ou dúvidas na inscrição? Fale comigo:<br>
+                            <a href="mailto:ronan.zenatti@cps.sp.gov.br"
+                                style="color:#024da1;font-weight:bold;text-decoration:none;">ronan.zenatti@cps.sp.gov.br</a>
+                            |
+                            <a href="https://api.whatsapp.com/send?phone=5514981575657&amp;text=preciso%20de%20ajuda%20com%20o%20NetAcad."
+                                style="color:#11b600; font-weight:bold; text-decoration:none;">WhatsApp</a> |
+                            <span style="color:#024da1;font-weight:bold;">(14) 9 8157-5657</span>
+                        </p>
+                    </div>
+                    <div style="text-align:center; margin:40px 0 0 0;">
+                        <p style="font-size:17px; color:#444; font-weight:bold;">Vamos juntos formar a nova geração
+                            de especialistas em cibersegurança no Brasil! 🌍✨</p>
+                        <p style="margin:36px 0 0 0; font-size:15px;color:#888;">
+                            <i>Equipe CPS – Cisco Networking Academy</i>
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+</body>
+
+</html>
